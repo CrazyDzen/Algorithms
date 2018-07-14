@@ -1,7 +1,7 @@
 ﻿# Пользователь вводит две буквы. Определить, на каких местах алфавита они стоят и сколько между ними находится букв.
 
 letter = input('Введите буквы, через запятую: ')
-let = letter.split(',')
+let = letter.split(', ')
 letters = list(map(chr, range(ord('a'), ord('z')+1)))
 i = letters.index(let[0]) + 1
 j = letters.index(let[1]) + 1
