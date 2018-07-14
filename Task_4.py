@@ -15,8 +15,8 @@ action = input('Выберите действие:'
                '\nВведите 2 - если необходимо случайное вещественное число;'
                '\nВведите 3 - если необходим случайный символ.'
                '\n: ')
-enter_span = input('Введите требуемый диапазон через тире: ')
-span = enter_span.split('-')
+enter_span = input('Введите требуемый диапазон через запятую: ')
+span = enter_span.split(',')
 if action == '1':
     answer = random.randint(int(span[0]), int(span[1]))
 elif action == '2':
