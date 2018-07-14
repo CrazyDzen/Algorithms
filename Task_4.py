@@ -21,7 +21,7 @@ if action == '1':
     answer = random.randint(int(span[0]), int(span[1]))
 elif action == '2':
     answer = random.uniform(float(span[0]), float(span[1]))
-else:
+elif action == '3':
     letters = list(map(chr, range(ord(span[0]), ord(span[1])+1)))
     n = random.randint(0, len(letters) - 1)
     answer = letters[n]
