@@ -8,7 +8,7 @@ cuts = line.split(',')
 a = cuts[0]
 b = cuts[1]
 c = cuts[2]
-if a + b > c and b + c > a and a + c > d:
+if a + b > c and b + c > a and a + c > b:
     if a == b and b == c and c == a:
         print('Данные отрезки могут являться равносторонним треугольником')
     elif a != b and b != c and c != a:
