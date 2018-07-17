@@ -12,8 +12,7 @@ for i in range(10):
     elif k != number and i == 9:
         print(f'Вы исчерпали количество попыток.'
               f'Загадано число: {number}')
+    elif k > number:
+        print('Меньше')
     else:
-        if k > number:
-            print('Меньше')
-        else:
-            print('Больше')
+        print('Больше')
