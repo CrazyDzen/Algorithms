@@ -10,6 +10,7 @@ def average(value):
         mean += el['revenue']
     return mean / len(value)
 
+
 def companies(value):
     mean = average(value)
     company_more = ''
